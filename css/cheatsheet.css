@@ -24,7 +24,7 @@ code::before {
     flex-direction: column;
     flex-wrap: wrap;
     align-content: flex-start;
-    max-height: 150vh;
+    max-height: 100vh;
     max-width: 1100px;
     margin: auto;
 }
@@ -32,6 +32,7 @@ code::before {
 .card {
     width: 30%;
     margin: 10px;
+    border: 1px solid #ccc;
 }
 
 .card-header {
@@ -49,7 +50,7 @@ code::before {
 }
 
 .note {
-    margin: 10px 0;
+    margin: 12px 0;
 }
 
 .note p {

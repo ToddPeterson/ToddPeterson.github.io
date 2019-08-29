@@ -38,12 +38,20 @@
               <code>git status</code>
             </div>
             <div class="note">
-              <p>Diff tracked files.</p>
+              <p>Diff tracked but not staged files.</p>
               <code>git diff</code>
             </div>
             <div class="note">
-              <p>Add file to staging area. Use '.' to add all changes from the current directory.</p>
+              <p>Diff staged files.</p>
+              <code>git diff --staged</code>
+            </div>
+            <div class="note">
+              <p>Add file (in its current state) to staging area. Use '.' to add all changes from the current directory.</p>
               <code>git add [file]</code>
+            </div>
+            <div class="note">
+              <p>Unstage a file, retaining changes.</p>
+              <code>git reset [file]</code>
             </div>
             <div class="note">
               <p>Commit all local changes from staging area.</p>
@@ -55,6 +63,63 @@
             </div>
           </div>
         </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3>Branch and Merge</h3>
+          </div>
+          <div class="card-content">
+            <div class="note">
+              <p>List branches.</p>
+              <code>git branch</code>
+            </div>
+            <div class="note">
+              <p>Create a new branch.</p>
+              <code>git branch [name]</code>
+            </div>
+            <div class="note">
+              <p>Switch to a branch.</p>
+              <code>git checkout [branch]</code>
+            </div>
+            <div class="note">
+              <p>Delete a local branch.</p>
+              <code>git branch -d [branch]</code>
+            </div>
+            <div class="note">
+              <p>Merge a branch with the currently selected one.</p>
+              <code>git merge [branch]</code>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3>Publish</h3>
+          </div>
+          <div class="card-content">
+            <div class="note">
+              <p>List all remotes.</p>
+              <code>git remote -v</code>
+            </div>
+            <div class="note">
+              <p>Show information about a remote.</p>
+              <code>git remote show -v</code>
+            </div>
+            <div class="note">
+              <p>Download changes, but don't integrate.</p>
+              <code>git fetch [remote]</code>
+            </div>
+            <div class="note">
+              <p>Download and merge/integrate changes.</p>
+              <code>git pull [remote] [branch]</remote></code>
+            </div>
+            <div class="note">
+              <p>Publish local changes on a remote</p>
+              <code>git push [remote] [branch]</code>
+            </div>
+          </div>
+        </div>
+
       </div>
     </main>
   </body>
