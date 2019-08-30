@@ -4,12 +4,13 @@
 
 body {
     font-family: 'Manjari', sans-serif;
-    background-color: #faf5ef;
+    background-color: #525252;
 }
 
 code {
     font-family: 'Source Code Pro', monospace;
-    background-color: #99b19c;
+    color: #ccc;
+    background-color: #313131;
     display: block;
     width: 100%;
     padding: 0 0 2px 2px;
@@ -30,16 +31,19 @@ code::before {
 }
 
 .card {
-    background-color: #d7d1c9;
+    color: #ccc;
+    background-color: #414141;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
     max-width: 31%;
     margin: 10px;
-    /* border: 1px solid #ccc; */
 }
 
 .card-header {
-    background-color: #672f2f;
-    color: whitesmoke;
+    background-color: #ca3e47;
+    color: #ccc;
     padding: 2% 0 0.5% 1%;
+    border-radius: 5px 5px 0 0;
 }
 
 .card-header h3 {
@@ -48,6 +52,7 @@ code::before {
 
 .card-content {
     padding: 0px 10px;
+    border-radius: 0 0 5px 5px;
 }
 
 .note {
