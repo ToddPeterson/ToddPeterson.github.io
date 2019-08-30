@@ -4,15 +4,15 @@
 
 body {
     font-family: 'Manjari', sans-serif;
-    background-color: whitesmoke
+    background-color: #faf5ef;
 }
 
 code {
     font-family: 'Source Code Pro', monospace;
-    background-color: khaki;
+    background-color: #99b19c;
     display: block;
     width: 100%;
-    padding-left: 2px;
+    padding: 0 0 2px 2px;
 }
 
 code::before {
@@ -24,19 +24,20 @@ code::before {
     flex-direction: column;
     flex-wrap: wrap;
     align-content: flex-start;
-    max-height: 100vh;
+    max-height: 120vh;
     max-width: 1100px;
     margin: auto;
 }
 
 .card {
-    width: 30%;
+    background-color: #d7d1c9;
+    max-width: 31%;
     margin: 10px;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
 }
 
 .card-header {
-    background-color: midnightblue;
+    background-color: #672f2f;
     color: whitesmoke;
     padding: 2% 0 0.5% 1%;
 }
@@ -50,10 +51,10 @@ code::before {
 }
 
 .note {
-    margin: 12px 0;
+    margin: 10px 0;
 }
 
 .note p {
-    margin: 0 0 4px 0;
+    margin: 4px 0;
 }
 

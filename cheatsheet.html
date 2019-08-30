@@ -120,6 +120,34 @@
           </div>
         </div>
 
+        <div class="card">
+          <div class="card-header">
+            <h3>Basic Workflow</h3>
+          </div>
+          <div class="card-content">
+            <div class="note">
+              <p>Create a branch and check it out.</p>
+              <code>git branch [branch]</code>
+              <code>git checkout [branch]</code>
+              <p>Make code changes.</p>
+              <p>Add changes to staging area, then commit them.</p>
+              <code>git add -A</code>
+              <code>git commit -m "[message]"</code>
+              <p>Push branch to repository.</p>
+              <code>git push -u [remote] [branch]</code>
+              <p>Switch to master branch and merge changes from the other branch.</p>
+              <code>git checkout master</code>
+              <code>git pull [remote] master</code>
+              <code>git merge [branch]</code>
+              <p>Push the merged changes.</p>
+              <code>git push [remote] master.</code>
+              <p>Delete the branch.</p>
+              <code>git branch -d [branch]</code>
+              <code>git push [remote] --delete [branch]</code>
+            </div>
+          </div>
+        </div>
+
       </div>
     </main>
   </body>
