@@ -156,6 +156,7 @@
       for (let card_idx = 0; card_idx < card_headers.length; card_idx++) {
         card_headers[card_idx].addEventListener("click", (event) => {
           const header = event.target.closest('.card-header');
+          header.classList.toggle('content-hidden');
           const content = header.nextElementSibling;
           if (content.style.display === 'block' || content.style.display === '') {
             content.style.display = "none";

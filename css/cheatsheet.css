@@ -48,6 +48,26 @@ code::before {
 
 .card-header h3 {
     margin: 0;
+    display: inline-block;
+}
+
+.card-header::after {
+    content: '+';
+    color: #ccc;
+    font-weight: bold;
+    font-size: 1.3em;
+    float: right;
+    padding-right: 3%;
+    position: relative;
+    bottom: 2px;
+}
+
+.content-hidden {
+    border-radius: 5px;
+}
+
+.content-hidden::after {
+    content: '-';
 }
 
 .card-content {
