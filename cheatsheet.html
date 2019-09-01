@@ -150,5 +150,20 @@
 
       </div>
     </main>
+    <script>
+      const card_headers = document.getElementsByClassName('card-header');
+
+      for (let card_idx = 0; card_idx < card_headers.length; card_idx++) {
+        card_headers[card_idx].addEventListener("click", (event) => {
+          const header = event.target.closest('.card-header');
+          const content = header.nextElementSibling;
+          if (content.style.display === 'block' || content.style.display === '') {
+            content.style.display = "none";
+          } else {
+            content.style.display = "block";
+          }
+        });
+      }
+    </script>
   </body>
 </html>
