@@ -1,0 +1,31 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.bg {
+    background-image: url(../media/img/trees.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+.my-name {
+    font-size: 50px;
+}
+
+main a {
+    color: white;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: white;
+}
+
