@@ -1,31 +1,62 @@
-body {
+body, html {
+    height: 100%;
+    margin: 0;
     font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #f1f1f1;
 }
 
-.bg {
-    background-image: url(../media/img/trees.jpg);
+a {
+    color: #f1f1f1;
+}
+
+.par-img1, .par-img2 {
+    position: relative;
+    opacity: 0.85;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #cccccc;
+    background-attachment: fixed; /* "scroll" to remove parallax */
 }
 
-header {
+.par-img1 {
+    background-image: url(../media/img/trees.jpg);
+    min-height: 100%;
+}
+
+.par-img2 {
+    background-image: url(../media/img/chopped_wood.jpg);
+    min-height: 400px;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light {
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section-dark {
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.par-text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
     text-align: center;
     color: white;
+    font-size: 27px;
+    letter-spacing: 8px;
 }
 
-.my-name {
-    font-size: 50px;
+.par-text .border {
+    background-color: #111;
+    padding: 20px;
 }
-
-main a {
-    color: white;
-}
-
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    color: white;
-}
-
