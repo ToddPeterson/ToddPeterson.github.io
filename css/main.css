@@ -12,7 +12,7 @@ a {
     color: #f1f1f1;
 }
 
-.par-img1, .par-img2 {
+.par-img1, .par-img2, .par-img3 {
     position: relative;
     opacity: 0.85;
     background-position: center;
@@ -31,6 +31,10 @@ a {
     min-height: 400px;
 }
 
+.par-img3 {
+    background-image: url(../media/img/wood_bg.jpg);
+    min-height: 400px;
+}
 
 .section {
     text-align: center;
