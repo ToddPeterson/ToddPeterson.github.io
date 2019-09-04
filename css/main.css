@@ -12,7 +12,7 @@ a {
     color: #f1f1f1;
 }
 
-.par-img1, .par-img2, .par-img3 {
+.par-img {
     position: relative;
     opacity: 0.85;
     background-position: center;
@@ -21,17 +21,17 @@ a {
     background-attachment: fixed; /* "scroll" to remove parallax */
 }
 
-.par-img1 {
+.img1 {
     background-image: url(../media/img/trees.jpg);
     min-height: 100%;
 }
 
-.par-img2 {
+.img2 {
     background-image: url(../media/img/chopped_wood.jpg);
     min-height: 400px;
 }
 
-.par-img3 {
+.img3 {
     background-image: url(../media/img/wood_bg.jpg);
     min-height: 400px;
 }
@@ -93,7 +93,7 @@ a {
 }
 
 @media(max-width:568px) {
-    .par-img1, .par-img2 {
+    .par-img {
         background-attachment: scroll;
     }
 }
