@@ -31,6 +31,7 @@ a {
     min-height: 400px;
 }
 
+
 .section {
     text-align: center;
     padding: 50px 80px;
@@ -59,6 +60,32 @@ a {
 .par-text .border {
     background-color: #111;
     padding: 20px;
+}
+
+.proj-container {
+    display: inline-block;
+}
+
+.proj-title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.button {
+    background-color: #282e34;
+    color: #ddd;
+    border: 2px solid #ddd;
+    padding: 12px 28px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #ddd;
+    color: #282e34;
 }
 
 @media(max-width:568px) {
