@@ -66,13 +66,21 @@ a {
     padding: 20px;
 }
 
+#proj-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
 .proj-container {
     display: inline-block;
+    max-width: 300px;
+    margin: 10px;
 }
 
 .proj-title {
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 20px;
 }
 
 .button {
@@ -95,5 +103,11 @@ a {
 @media(max-width:568px) {
     .par-img {
         background-attachment: scroll;
+    }
+}
+
+@media(max-width:400px) {
+    .section {
+        padding: 50px 50px;
     }
 }
