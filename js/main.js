@@ -35,8 +35,6 @@ function highlightLink(anchor) {
 
 $('.nav-link').click(function() {
     const anchor = $(this).attr('dest');
-    console.log("TCL: this", $(this))
-    console.log('TCL: anchor', anchor);
 
     $('html, body').animate(
         {
