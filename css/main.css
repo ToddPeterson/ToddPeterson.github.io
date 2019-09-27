@@ -12,6 +12,25 @@ a {
     color: #f1f1f1;
 }
 
+nav {
+    overflow: hidden;
+    background-color: #111;
+    opacity: 0.9;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
 .par-img {
     position: relative;
     opacity: 0.85;

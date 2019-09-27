@@ -2,24 +2,35 @@
 <html>
   <head>
     <title>Todd Peterson's Homepage</title>
-    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/74970591f7.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+
+    <script
+			  src="https://code.jquery.com/jquery-3.4.1.min.js"
+			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			  crossorigin="anonymous"></script>
   </head>
   <body>
     <!-- Photo by Noah Silliman on Unsplash -->
-    <div class="par-img img1">
+    <div id="home" class="par-img img1">
       <div class="par-text">
         <span class="border">
           Todd Peterson
         </span>
       </div>
     </div>
-    <section class="section section-dark">
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero corrupti consectetur natus culpa totam quos dignissimos laudantium, perspiciatis rem in id illo quia ducimus quis! Laborum, enim hic. Iste quis nulla enim a possimus, quae odit molestiae magnam deleniti perspiciatis voluptatem provident, id illo, commodi quam! Minima ea modi sapiente nam consequuntur corporis similique quis obcaecati eligendi, itaque hic velit commodi voluptates, maiores beatae incidunt dolor fugit dolorem nostrum in reprehenderit est error blanditiis! Facere cupiditate alias rerum amet iusto, optio provident, impedit labore nam omnis, repellat soluta non esse architecto dolorum consectetur in perspiciatis laborum distinctio doloribus perferendis dolor.</p>
-    </section>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <!-- <section class="section section-dark">
+      <p></p>
+    </section> -->
     <!-- Photo by Julian Hochgesang on Unsplash -->
     <div class="par-img img2">
-      <div class="par-text">
+      <div id="projects" class="par-text">
         <span class="border">
           Projects
         </span>
@@ -50,8 +61,12 @@
         </span>
       </div>
     </div>
-    <section class="section section-dark">
+    <section id="contact" class="section section-dark">
       <span>ToddPetersonGV@gmail.com</span>
+      <div class="social">
+        <a href="https://github.com/ToddPeterson"><i class="fab fa-git"></i></a>
+      </div>
     </section>
+    <script src="js/main.js"></script>
   </body>
 </html>
