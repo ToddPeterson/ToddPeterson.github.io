@@ -143,6 +143,7 @@ nav .active {
     text-decoration: none;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
+    cursor: pointer;
 }
 
 .button:hover {
@@ -160,4 +161,38 @@ nav .active {
     .section {
         padding: 50px 50px;
     }
+}
+
+form {
+    line-height: 18px;
+    font-size: 12px;
+    margin: 40px auto 0 auto;
+    width: 500px;
+}
+
+input[type='text'],
+input[type='email'],
+textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    border: 0;
+    padding: 10px 15px;
+    margin-bottom: 3px;
+    background: #111;
+    color: #ccc;
+}
+
+textarea {
+    min-height: 150px;
+    margin-bottom: 5px;
+}
+
+form .button {
+    float: right;
+}
+
+.social {
+    margin-top: 60px;
 }
