@@ -44,20 +44,20 @@ $('.nav-link').click(function() {
     );
 });
 
-$('#contact-form').submit(e => {
-    console.log('SENDING');
-    e.preventDefault();
+// $('#contact-form').submit(e => {
+//     console.log('SENDING');
+//     e.preventDefault();
 
-    $.ajax({
-        url: 'https://formspree.io/ToddPetersonGV@gmail.com',
-        method: 'POST',
-        data: { message: $('form').serialize() },
-        dataType: 'json'
-    }).done(response => {
-        console.log('DONE');
-        $('#contact-form')
-            .find('input[type=text], input[type=email], textarea')
-            .val('');
-    });
-    console.log('EXIT');
-});
+//     $.ajax({
+//         url: 'https://formspree.io/ToddPetersonGV@gmail.com',
+//         method: 'POST',
+//         data: { message: $('form').serialize() },
+//         dataType: 'json'
+//     }).done(response => {
+//         console.log('DONE');
+//         $('#contact-form')
+//             .find('input[type=text], input[type=email], textarea')
+//             .val('');
+//     });
+//     console.log('EXIT');
+// });

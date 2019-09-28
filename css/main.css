@@ -17,6 +17,7 @@ nav {
     overflow: hidden;
     background-color: #111;
     opacity: 0.9;
+    height: 33px;
 }
 
 nav .nav-link {
