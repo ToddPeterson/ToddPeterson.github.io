@@ -65,7 +65,7 @@ nav .active {
 
 .section {
     text-align: center;
-    padding: 50px 80px;
+    padding: 45px 80px;
 }
 
 .section-light {
@@ -76,6 +76,11 @@ nav .active {
 .section-dark {
     background-color: #282e34;
     color: #ddd;
+}
+
+.separator {
+    border-top: 2px solid #ddd;
+    width: 30%;
 }
 
 .par-text {
@@ -117,7 +122,7 @@ nav .active {
     background-color: #111;
 }
 
-#proj-section {
+.proj-wrap {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
