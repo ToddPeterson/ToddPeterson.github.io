@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todd Peterson's Homepage</title>
+    <script src="https://kit.fontawesome.com/74970591f7.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <script
+			  src="https://code.jquery.com/jquery-3.4.1.min.js"
+			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			  crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Photo by Noah Silliman on Unsplash -->
+    <div id="home" class="par-img img1">
+      <div class="par-text">
+        <span class="border">
+          Todd Peterson
+        </span>
+      </div>
+      <div class="nav-link down-arrow-wrap" dest="projects">
+        <i class="fa fa-angle-down"></i>
+      </div>
+    </div>
+    <nav>
+      <div class="link-wrap">
+        <div class="nav-link active" dest="home">Home</div>
+        <div class="nav-link" dest="projects">Projects</div>
+        <div class="nav-link" dest="contact">Contact</div>
+      </div>
+    </nav>
+    <!-- <section class="section section-dark">
+      <p></p>
+    </section> -->
+    <!-- Photo by Julian Hochgesang on Unsplash -->
+    <div class="par-img img2">
+      <div id="projects" class="par-text">
+        <span class="border">
+          Projects
+        </span>
+      </div>
+    </div>
+    <section class="section section-dark" id="proj-section">
+      <p>Some things I made.</p>
+      <hr class="separator">
+      <div class="proj-wrap">
+        <div class="proj-container">
+          <span class="proj-title">Git Cheatsheet</span>
+          <p>A git cheatsheet viewable in a web browser.</p>
+          <div class="proj-buttons">
+            <a href="/git-cheatsheet" class="button" target="_blank">Live</a>
+            <a href="https://www.github.com/ToddPeterson/git-cheatsheet" class="button" target="_blank">Source</a>
+          </div>
+        </div>
+        <div class="proj-container">
+          <span class="proj-title">QC Review</span>
+          <p>A web app for reviewing automated test results. Built using Django, Bootstrap, and Charts.js.</p>
+          <div class="proj-buttons">
+            <a href="https://ToddPeterson.pythonanywhere.com" class="button" target="_blank">Live</a>
+            <a href="https://www.github.com/ToddPeterson/QCReview" class="button" target="_blank">Source</a>
+          </div>
+        </div>
+        <div class="proj-container">
+          <span class="proj-title">Blight Oils</span>
+          <p>A tool for looking up crafting recipes for Path of Exile's Blight league.</p>
+          <div class="proj-buttons">
+            <a href="/blight_oils" class="button">Live</a>
+            <a href="https://www.github.com/ToddPeterson/blight_oils" class="button" target="_blank">Source</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="par-img img3">
+      <div class="par-text">
+        <span class="border">
+          Contact
+        </span>
+      </div>
+    </div>
+    <section id="contact" class="section section-dark">
+      <p>Send me words.</p>
+      <hr class="separator">
+      <form id="contact-form" action="https://formspree.io/toddpetersonGV@gmail.com" method="POST">
+        <input placeholder="Name" type="text" name="name" required="">
+        <input placeholder="Enter your email" type="email" name="_replyto" required="">
+        <textarea placeholder="Write something" type="text" name="message"></textarea>
+        <div class="success"></div>
+        <input id="submit" class="button" type="submit" value="Submit">
+      </form>
+      <div class="social">
+        <a href="https://github.com/ToddPeterson"><i class="fab fa-git"></i></a>
+      </div>
+    </section>
+    <script src="js/main.js"></script>
+  </body>
+</html>

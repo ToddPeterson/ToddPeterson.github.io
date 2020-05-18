@@ -1,0 +1,204 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #f1f1f1;
+}
+
+a {
+    color: #f1f1f1;
+}
+
+nav {
+    overflow: hidden;
+    background-color: #111;
+    opacity: 0.9;
+    height: 33px;
+}
+
+nav .nav-link {
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 20px;
+    display: inline;
+    cursor: pointer;
+}
+
+nav .active {
+    color: rgb(253, 154, 24);
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.par-img {
+    position: relative;
+    opacity: 0.85;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* "scroll" to remove parallax */
+}
+
+.img1 {
+    background-image: url(../media/img/trees.jpg);
+    min-height: 100%;
+}
+
+.img2 {
+    background-image: url(../media/img/chopped_wood.jpg);
+    min-height: 400px;
+}
+
+.img3 {
+    background-image: url(../media/img/wood_bg.jpg);
+    min-height: 400px;
+}
+
+.section {
+    text-align: center;
+    padding: 45px 80px;
+}
+
+.section-light {
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section-dark {
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.separator {
+    border-top: 2px solid #ddd;
+    width: 30%;
+}
+
+.par-text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    letter-spacing: 8px;
+}
+
+.par-text .border {
+    background-color: #111;
+    padding: 20px;
+}
+
+.down-arrow-wrap {
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    margin-left: -25px;
+    color: #ccc;
+    border: 3px solid #ccc;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 51px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.down-arrow-wrap:hover {
+    color: #fff;
+    border: 3px solid #fff;
+    background-color: #111;
+}
+
+.proj-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.proj-container {
+    display: inline-block;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.proj-title {
+    font-size: 20px;
+}
+
+.button {
+    background-color: #282e34;
+    color: #ddd;
+    border: 2px solid #ddd;
+    padding: 12px 28px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #ddd;
+    color: #282e34;
+}
+
+@media (max-width: 568px) {
+    .par-img {
+        background-attachment: scroll;
+    }
+}
+
+@media (max-width: 400px) {
+    .section {
+        padding: 50px 50px;
+    }
+}
+
+form {
+    line-height: 18px;
+    font-size: 12px;
+    margin: 40px auto 0 auto;
+    width: 500px;
+}
+
+input[type='text'],
+input[type='email'],
+textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    border: 0;
+    padding: 10px 15px;
+    margin-bottom: 3px;
+    background: #111;
+    color: #ccc;
+}
+
+textarea {
+    min-height: 150px;
+    margin-bottom: 5px;
+}
+
+form .button {
+    float: right;
+}
+
+.social {
+    margin-top: 60px;
+}
